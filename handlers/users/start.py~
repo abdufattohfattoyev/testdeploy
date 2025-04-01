@@ -1,7 +1,7 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
 import requests
-from loader import dp
+from loader import dp, bot
 from googletrans import Translator
 
 translator = Translator()
